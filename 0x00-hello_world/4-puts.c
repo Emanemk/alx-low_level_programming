@@ -1,4 +1,13 @@
 #include<stdio.h>
+
+/**
+ * main - entry point
+ *
+ * description: print a string 
+ *
+ * return: always 0 (success)
+ */
+
 int main(void)
 {
 
