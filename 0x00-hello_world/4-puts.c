@@ -3,9 +3,8 @@
 /**
  * main - entry point
  *
- * description: print a string 
+ *description:print a string
  *
- * return: always 0 (success)
  */
 
 int main(void)
@@ -14,6 +13,13 @@ int main(void)
 	char mystr[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(mystr);
+
+	/**
+	 * return value
+	 *
+	 * description: always 0 (success)
+	 *
+	 */
 
 	return (0);
 }
