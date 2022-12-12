@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
 
-/** main - entry point
+/**
+ * main - entry point
  *
- * Description: print positiveor negative
+ * Description: print positive or negative
  *
- * Return: return is always 0
+ * Return: return value of main is always 0
  *
  */
 
@@ -18,8 +17,6 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 printf("%i\n", n);
-
-/* your code goes there */
 
 if (n > 0)
 {
