@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/***
+/**
  * main - entry point
  *
  * Description: print alpha in lower case
