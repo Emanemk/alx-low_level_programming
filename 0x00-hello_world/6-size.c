@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  *
  * descriptio: print sizes of types
  *
@@ -17,13 +17,11 @@ int main(void)
 	long long int longlongintType;
 	float floatType;
 
-	printf("Size of char: %c byte\n", sizeof(charType));
-	printf("Size of int: %d byte\n", sizeof(intType));
-	printf("Size of long int: %ld byte\n", sizeof(longintType));
-	printf("Size of long long int: %lld byte\n", sizeof(longlongintType));
-	printf("Size of float: %f byte\n", sizeof(floatType));
+	printf("Size of char: %zu byte\n", sizeof(charType));
+	printf("Size of int: %zu byte\n", sizeof(intType));
+	printf("Size of long int: %zu byte\n", sizeof(longintType));
+	printf("Size of long long int: %zu byte\n", sizeof(longlongintType));
+	printf("Size of float: %zu byte\n", sizeof(floatType));
 
 	return (0);
 }
-	
-	
